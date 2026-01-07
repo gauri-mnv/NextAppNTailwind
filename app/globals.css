@@ -1,0 +1,41 @@
+/* @tailwind base; */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@tailwind utilities;
+@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+/* @plugin "daisyui" {
+  themes: light --default, dark --prefersdark, dracula;
+} */
+/* @plugin "daisyui/theme" {
+  name: "dracula";
+  default: true;
+  --color-primary: yellow;
+  --color-secondary: teal;
+} */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  padding: 1rem;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+/* //should not apply component classes because it will perticulARLY APPLY TO a page  */

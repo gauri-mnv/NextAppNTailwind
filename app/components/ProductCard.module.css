@@ -1,0 +1,10 @@
+/* add css for any clss without woring about application
+ will have same class for another page as its product card css */
+ .card{
+    padding: 1rem;
+    border: 1px solid #e7d8d8;
+  margin: 5px;
+  background-color:azure;
+  color: black;
+  width:fit-content;
+ }
