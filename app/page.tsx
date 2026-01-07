@@ -6,9 +6,11 @@ export default function Home() {
   return (
     <main>
       <h1>
-        Hello NextJS!
+        NextJS!
       </h1>
+      <br />
       <Link href="/user">User</Link>
+      <br />
       <ProductCard />
     </main>
   )

@@ -9,6 +9,7 @@ This is a **basic learning project built using Next.js (App Router), Tailwind CS
 * **Next.js (App Router)**
 * **React**
 * **Tailwind CSS**
+  - Tailwind Utility-First
 * **DaisyUI**
 * **TypeScript (optional if enabled)**
 
